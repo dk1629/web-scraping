@@ -1,0 +1,498 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "entrypoints",
+    "python >=3.8,<3.9.0a0",
+    "secretstorage"
+  ],
+  "extracted_package_dir": "/home/dario/anaconda3/pkgs/keyring-21.2.1-py38_0",
+  "features": "",
+  "files": [
+    "bin/keyring",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/keyring-21.2.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/keyring/__init__.py",
+    "lib/python3.8/site-packages/keyring/__main__.py",
+    "lib/python3.8/site-packages/keyring/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/credentials.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/devpi_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/__pycache__/http.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backend.py",
+    "lib/python3.8/site-packages/keyring/backends/OS_X.py",
+    "lib/python3.8/site-packages/keyring/backends/SecretService.py",
+    "lib/python3.8/site-packages/keyring/backends/Windows.py",
+    "lib/python3.8/site-packages/keyring/backends/_OS_X_API.py",
+    "lib/python3.8/site-packages/keyring/backends/__init__.py",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/OS_X.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/SecretService.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/Windows.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/_OS_X_API.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/chainer.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/fail.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/kwallet.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/__pycache__/null.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/backends/chainer.py",
+    "lib/python3.8/site-packages/keyring/backends/fail.py",
+    "lib/python3.8/site-packages/keyring/backends/kwallet.py",
+    "lib/python3.8/site-packages/keyring/backends/null.py",
+    "lib/python3.8/site-packages/keyring/cli.py",
+    "lib/python3.8/site-packages/keyring/core.py",
+    "lib/python3.8/site-packages/keyring/credentials.py",
+    "lib/python3.8/site-packages/keyring/devpi_client.py",
+    "lib/python3.8/site-packages/keyring/errors.py",
+    "lib/python3.8/site-packages/keyring/http.py",
+    "lib/python3.8/site-packages/keyring/testing/__init__.py",
+    "lib/python3.8/site-packages/keyring/testing/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/testing/__pycache__/backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/testing/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/testing/backend.py",
+    "lib/python3.8/site-packages/keyring/testing/util.py",
+    "lib/python3.8/site-packages/keyring/util/__init__.py",
+    "lib/python3.8/site-packages/keyring/util/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/util/__pycache__/platform_.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/util/__pycache__/properties.cpython-38.pyc",
+    "lib/python3.8/site-packages/keyring/util/platform_.py",
+    "lib/python3.8/site-packages/keyring/util/properties.py"
+  ],
+  "fn": "keyring-21.2.1-py38_0.conda",
+  "legacy_bz2_md5": "8273f57e4b37bb425e67f1ff20096075",
+  "legacy_bz2_size": 56927,
+  "license": "Python Software Foundation or MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/dario/anaconda3/pkgs/keyring-21.2.1-py38_0",
+    "type": 1
+  },
+  "md5": "3065c14e49a74bae3b9f9ec61f3f769a",
+  "name": "keyring",
+  "package_tarball_full_path": "/home/dario/anaconda3/pkgs/keyring-21.2.1-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/keyring",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "770e9a045eb4758f74016af5c711ae56224a7615ee5809c472d3e8a6b195cd14",
+        "sha256_in_prefix": "c2d949208cfbbe33659c6750eb3be0c64be032fda7b3255eac235691dc9bcf7c",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "sha256_in_prefix": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ff8b82286a79242ecc39154ddacb85ed99b9f959063f374f90bf1fd718122459",
+        "sha256_in_prefix": "ff8b82286a79242ecc39154ddacb85ed99b9f959063f374f90bf1fd718122459",
+        "size_in_bytes": 16452
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "55c855b657a7fe7b160d08afab205a24301a07f7983fd22872b382dde4e98c0f",
+        "sha256_in_prefix": "55c855b657a7fe7b160d08afab205a24301a07f7983fd22872b382dde4e98c0f",
+        "size_in_bytes": 3919
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0027dfa3a94a8a557fff568d74f4c082f53dbd0ac1f3c300f03c6968ae1316af",
+        "sha256_in_prefix": "0027dfa3a94a8a557fff568d74f4c082f53dbd0ac1f3c300f03c6968ae1316af",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "23c09a165c1d881261c4a8bac3b92f54b872300e40c8e205157d8716052b0a15",
+        "sha256_in_prefix": "23c09a165c1d881261c4a8bac3b92f54b872300e40c8e205157d8716052b0a15",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring-21.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a218757647b6f3f35d48d919ea79154b020a90b2533b021f1309d72af6b7a648",
+        "sha256_in_prefix": "a218757647b6f3f35d48d919ea79154b020a90b2533b021f1309d72af6b7a648",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c38558268b34fa11a2095e0069ea58216ef534d1ff6bc362aca503776b0be303",
+        "sha256_in_prefix": "c38558268b34fa11a2095e0069ea58216ef534d1ff6bc362aca503776b0be303",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "bc1fef392938a4866b91ebc141e1d7cba198bfb35dd3fbe278a7b8e177f58bd8",
+        "sha256_in_prefix": "bc1fef392938a4866b91ebc141e1d7cba198bfb35dd3fbe278a7b8e177f58bd8",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d58d091bb6decc5e00ae0354fa070a7db2a42597d403a5e8812a4bda1c8ab500",
+        "sha256_in_prefix": "d58d091bb6decc5e00ae0354fa070a7db2a42597d403a5e8812a4bda1c8ab500",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "499fa5213ec2c380b86471c9797572f56ef03bcd76e3d9959253aee1ef9257c9",
+        "sha256_in_prefix": "499fa5213ec2c380b86471c9797572f56ef03bcd76e3d9959253aee1ef9257c9",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d4bebb3701a4b57d369ae16b6e239e46c9123fc873819ae698fdf36b6b87bf1",
+        "sha256_in_prefix": "9d4bebb3701a4b57d369ae16b6e239e46c9123fc873819ae698fdf36b6b87bf1",
+        "size_in_bytes": 7527
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/cli.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "de523435662af5665b8c35b5d1e499df65de1dd537fa2d191b9638b49365e71c",
+        "sha256_in_prefix": "de523435662af5665b8c35b5d1e499df65de1dd537fa2d191b9638b49365e71c",
+        "size_in_bytes": 3563
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/core.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2baa5be15e14c56397ec20f89ab4ed64c6035afa2363f607143ce8a7c2270fe",
+        "sha256_in_prefix": "f2baa5be15e14c56397ec20f89ab4ed64c6035afa2363f607143ce8a7c2270fe",
+        "size_in_bytes": 5171
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/credentials.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "727e343a18ba1bf0086458b8c57311fe078e8481bfdc00b58d345ad70ae72fd4",
+        "sha256_in_prefix": "727e343a18ba1bf0086458b8c57311fe078e8481bfdc00b58d345ad70ae72fd4",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/devpi_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f00c3687f4d43edae730308173dcccc7a8b305b1597561e9cee8db581884f3d6",
+        "sha256_in_prefix": "f00c3687f4d43edae730308173dcccc7a8b305b1597561e9cee8db581884f3d6",
+        "size_in_bytes": 402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef2eef231c526ab82412ff95d25004478cf2fa141e48a124ea865c66f29d6e4e",
+        "sha256_in_prefix": "ef2eef231c526ab82412ff95d25004478cf2fa141e48a124ea865c66f29d6e4e",
+        "size_in_bytes": 2685
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/__pycache__/http.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5eca990d0b6c18e839f35a19b8bccee0f575f7b5b96567e8f1f9d0635aa7dd1",
+        "sha256_in_prefix": "e5eca990d0b6c18e839f35a19b8bccee0f575f7b5b96567e8f1f9d0635aa7dd1",
+        "size_in_bytes": 1690
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backend.py",
+        "path_type": "hardlink",
+        "sha256": "a4dc77801d65aa418ecb356c2b3bfb927788b122018a922477b220b1a1541f6f",
+        "sha256_in_prefix": "a4dc77801d65aa418ecb356c2b3bfb927788b122018a922477b220b1a1541f6f",
+        "size_in_bytes": 6346
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/OS_X.py",
+        "path_type": "hardlink",
+        "sha256": "b2360b615f94fdbdb1e5846988c27e71d5dedb2b4c5a3de68abca32fe66b657a",
+        "sha256_in_prefix": "b2360b615f94fdbdb1e5846988c27e71d5dedb2b4c5a3de68abca32fe66b657a",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/SecretService.py",
+        "path_type": "hardlink",
+        "sha256": "24a70cc6eef953d3d1f4353cd8e1bbc75990b16afd9111d0e23e49c90a117041",
+        "sha256_in_prefix": "24a70cc6eef953d3d1f4353cd8e1bbc75990b16afd9111d0e23e49c90a117041",
+        "size_in_bytes": 4586
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/Windows.py",
+        "path_type": "hardlink",
+        "sha256": "8e0d6ca464b318bda6255374b14e0797023e2734272f99cf367f02771bb9be01",
+        "sha256_in_prefix": "8e0d6ca464b318bda6255374b14e0797023e2734272f99cf367f02771bb9be01",
+        "size_in_bytes": 6055
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/_OS_X_API.py",
+        "path_type": "hardlink",
+        "sha256": "32fa636198e479c7cf898bd8cf8b935e0e8518faa4128ac195b1d5a0bdada3da",
+        "sha256_in_prefix": "32fa636198e479c7cf898bd8cf8b935e0e8518faa4128ac195b1d5a0bdada3da",
+        "size_in_bytes": 9578
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/OS_X.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e42022749b8edc3d1aa2ae790e3341b6d392e0a872b6e9ba57a556fe92076b8e",
+        "sha256_in_prefix": "e42022749b8edc3d1aa2ae790e3341b6d392e0a872b6e9ba57a556fe92076b8e",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/SecretService.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "26fa94eed1f63c1256ad37e1dd926bb63929937678db13c800c91ad744f78a27",
+        "sha256_in_prefix": "26fa94eed1f63c1256ad37e1dd926bb63929937678db13c800c91ad744f78a27",
+        "size_in_bytes": 4236
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/Windows.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d279553ccc136b30fa6dfb6b3c6dffaf9a0b1062e66e5ad1a67d568c362172aa",
+        "sha256_in_prefix": "d279553ccc136b30fa6dfb6b3c6dffaf9a0b1062e66e5ad1a67d568c362172aa",
+        "size_in_bytes": 5953
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/_OS_X_API.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7a5b40a36577d11180c1e5a8ef932055d245b7903a4fb474ac8e3775cc7d98d",
+        "sha256_in_prefix": "e7a5b40a36577d11180c1e5a8ef932055d245b7903a4fb474ac8e3775cc7d98d",
+        "size_in_bytes": 6740
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fff70e2afa7118a35c67940a4dc2486ffae6a389f84458cfe1775e81f2c48312",
+        "sha256_in_prefix": "fff70e2afa7118a35c67940a4dc2486ffae6a389f84458cfe1775e81f2c48312",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/chainer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "77f7679e10b46a5a7ba11e7a759b70b1e5141d7a2f4677b5ca9f5d1cc2e47896",
+        "sha256_in_prefix": "77f7679e10b46a5a7ba11e7a759b70b1e5141d7a2f4677b5ca9f5d1cc2e47896",
+        "size_in_bytes": 2488
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/fail.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7537865dda08cafa54fbb6809aa859ef5b8ac8a16f3936c2852c06eb0681dc6",
+        "sha256_in_prefix": "b7537865dda08cafa54fbb6809aa859ef5b8ac8a16f3936c2852c06eb0681dc6",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/kwallet.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2bf4aac90883296dff9fa2b1bdd0dd7ed7c3ce0db3a44553c9c02e92f10f1a8",
+        "sha256_in_prefix": "d2bf4aac90883296dff9fa2b1bdd0dd7ed7c3ce0db3a44553c9c02e92f10f1a8",
+        "size_in_bytes": 4312
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/__pycache__/null.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "86baf213396c303eb84793b70889ca77e4bf55b83395e56ddd97596d0bbd8e9b",
+        "sha256_in_prefix": "86baf213396c303eb84793b70889ca77e4bf55b83395e56ddd97596d0bbd8e9b",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/chainer.py",
+        "path_type": "hardlink",
+        "sha256": "28c2fa6dfff386ad8e40a73ca17b88d56d22a4519e47dec9a928e4669a7d9754",
+        "sha256_in_prefix": "28c2fa6dfff386ad8e40a73ca17b88d56d22a4519e47dec9a928e4669a7d9754",
+        "size_in_bytes": 2198
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/fail.py",
+        "path_type": "hardlink",
+        "sha256": "7ce8bc94d814debc1d3361859a0c1671c68da558bdd835872311712d24d9b764",
+        "sha256_in_prefix": "7ce8bc94d814debc1d3361859a0c1671c68da558bdd835872311712d24d9b764",
+        "size_in_bytes": 820
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/kwallet.py",
+        "path_type": "hardlink",
+        "sha256": "8dc702fd0de363efc6ebe97fdf4481fb1a2c00c392df7505bac4d324711af40e",
+        "sha256_in_prefix": "8dc702fd0de363efc6ebe97fdf4481fb1a2c00c392df7505bac4d324711af40e",
+        "size_in_bytes": 4716
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/backends/null.py",
+        "path_type": "hardlink",
+        "sha256": "bbafd669a97d77fe02895e431568d03d1495d46c1794f6afea6dd8b8d1c601aa",
+        "sha256_in_prefix": "bbafd669a97d77fe02895e431568d03d1495d46c1794f6afea6dd8b8d1c601aa",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/cli.py",
+        "path_type": "hardlink",
+        "sha256": "b1b15cfddeb1f43ec5b84edc230eb96a301ab55bccf8aca054e8e841e801df3c",
+        "sha256_in_prefix": "b1b15cfddeb1f43ec5b84edc230eb96a301ab55bccf8aca054e8e841e801df3c",
+        "size_in_bytes": 4105
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/core.py",
+        "path_type": "hardlink",
+        "sha256": "82c85cd364fc63828b04b3e1cad78c04303c9f7c5dce31cd6d2e19ac47f20b65",
+        "sha256_in_prefix": "82c85cd364fc63828b04b3e1cad78c04303c9f7c5dce31cd6d2e19ac47f20b65",
+        "size_in_bytes": 5097
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "e0490eb3960aa38b57da81020f63c029f32286828cf647484d87855b7287a01c",
+        "sha256_in_prefix": "e0490eb3960aa38b57da81020f63c029f32286828cf647484d87855b7287a01c",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/devpi_client.py",
+        "path_type": "hardlink",
+        "sha256": "b066ad61065a832bacd094f8db1b4c034c42ac12b49708e15934802dc4b66ad0",
+        "sha256_in_prefix": "b066ad61065a832bacd094f8db1b4c034c42ac12b49708e15934802dc4b66ad0",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/errors.py",
+        "path_type": "hardlink",
+        "sha256": "cab6a54cde4fb52fab5e7a38cc5cd08faa0d6dfa4aecf2b8af30fc815520f796",
+        "sha256_in_prefix": "cab6a54cde4fb52fab5e7a38cc5cd08faa0d6dfa4aecf2b8af30fc815520f796",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/http.py",
+        "path_type": "hardlink",
+        "sha256": "ff8158c6ddfb73c164f02a9f576dd5c6b7baf4ae9ff53f76b8868dd24ee9e860",
+        "sha256_in_prefix": "ff8158c6ddfb73c164f02a9f576dd5c6b7baf4ae9ff53f76b8868dd24ee9e860",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/testing/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a8a6519ae4af094dc1780b995e27622355683f93ddfefed1cf381557b624bfe",
+        "sha256_in_prefix": "0a8a6519ae4af094dc1780b995e27622355683f93ddfefed1cf381557b624bfe",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/testing/__pycache__/backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b88edcbfe138a2fda27703aa5030e6ed2f6c705838a8d0104a183ad0d6d9da2a",
+        "sha256_in_prefix": "b88edcbfe138a2fda27703aa5030e6ed2f6c705838a8d0104a183ad0d6d9da2a",
+        "size_in_bytes": 5833
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/testing/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "382ee129c70558bd5767c6e793a98bfb38b66b3d7af40dd4d8f47ee295f5259f",
+        "sha256_in_prefix": "382ee129c70558bd5767c6e793a98bfb38b66b3d7af40dd4d8f47ee295f5259f",
+        "size_in_bytes": 2447
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/testing/backend.py",
+        "path_type": "hardlink",
+        "sha256": "11185f7fe159f0f6ea987e9a92d9ec29a454a6388fe68d65dd002b1efc873232",
+        "sha256_in_prefix": "11185f7fe159f0f6ea987e9a92d9ec29a454a6388fe68d65dd002b1efc873232",
+        "size_in_bytes": 6149
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/testing/util.py",
+        "path_type": "hardlink",
+        "sha256": "ff433baf0023d6d814b9e8e50684f9325fd6c449cd75ddc2d9359466c947f23e",
+        "sha256_in_prefix": "ff433baf0023d6d814b9e8e50684f9325fd6c449cd75ddc2d9359466c947f23e",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0177de46f95a75a6829791dce854310cde1b3edbfc47161686f2d799e4ef6788",
+        "sha256_in_prefix": "0177de46f95a75a6829791dce854310cde1b3edbfc47161686f2d799e4ef6788",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/util/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1eb2ed79371a603bfa5b6ca14b3e07ff47b4089c286fcb082a57d85e3dad3afa",
+        "sha256_in_prefix": "1eb2ed79371a603bfa5b6ca14b3e07ff47b4089c286fcb082a57d85e3dad3afa",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/util/__pycache__/platform_.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "402209e69227ed9db88046cfd40a3a993449bcf252a5f5f239fee75b49693df4",
+        "sha256_in_prefix": "402209e69227ed9db88046cfd40a3a993449bcf252a5f5f239fee75b49693df4",
+        "size_in_bytes": 2486
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/util/__pycache__/properties.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b98907941adb8df1b5c721c38023f5e1d6883ab6231f367a6a1d9052c5e1641f",
+        "sha256_in_prefix": "b98907941adb8df1b5c721c38023f5e1d6883ab6231f367a6a1d9052c5e1641f",
+        "size_in_bytes": 1934
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/util/platform_.py",
+        "path_type": "hardlink",
+        "sha256": "d8d669258e6d0193f812553cb26ec9be53ac2cf082cd5110c9c3651b7b46129f",
+        "sha256_in_prefix": "d8d669258e6d0193f812553cb26ec9be53ac2cf082cd5110c9c3651b7b46129f",
+        "size_in_bytes": 2220
+      },
+      {
+        "_path": "lib/python3.8/site-packages/keyring/util/properties.py",
+        "path_type": "hardlink",
+        "sha256": "b63ee7c77cb79fbe68305df2fcf3cc6fd9100bf19e0a3a67d659358b3dad72e8",
+        "sha256_in_prefix": "b63ee7c77cb79fbe68305df2fcf3cc6fd9100bf19e0a3a67d659358b3dad72e8",
+        "size_in_bytes": 1347
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::keyring==21.2.1=py38_0",
+  "sha256": "4cd3b736447757b15c5df351af7eff7ffd601d2c2b55d26153da42b5de56d9be",
+  "size": 58901,
+  "subdir": "linux-64",
+  "timestamp": 1593109750628,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/keyring-21.2.1-py38_0.conda",
+  "version": "21.2.1"
+}

@@ -1,0 +1,102 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "backports",
+    "backports.weakref",
+    "python"
+  ],
+  "extracted_package_dir": "/home/dario/anaconda3/pkgs/backports.tempfile-1.0-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/backports.tempfile-1.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/backports.tempfile-1.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/backports.tempfile-1.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/backports.tempfile-1.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/backports.tempfile-1.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/backports.tempfile-1.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/backports/tempfile.py",
+    "lib/python3.8/site-packages/backports/__pycache__/tempfile.cpython-38.pyc"
+  ],
+  "fn": "backports.tempfile-1.0-py_1.conda",
+  "legacy_bz2_md5": "1e12bb12f2ef96b8ad9bb53b17c92f64",
+  "legacy_bz2_size": 11993,
+  "license": "PSF 2",
+  "link": {
+    "source": "/home/dario/anaconda3/pkgs/backports.tempfile-1.0-py_1",
+    "type": 1
+  },
+  "md5": "e9cf06fd6c801db08268a95c7863804b",
+  "name": "backports.tempfile",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/dario/anaconda3/pkgs/backports.tempfile-1.0-py_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/backports.tempfile-1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/backports.tempfile-1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "efc0c7f2994f95be25f7ce63a865f870e278ff0aa4f5d52d84d4d6d2a98128bd",
+        "sha256_in_prefix": "efc0c7f2994f95be25f7ce63a865f870e278ff0aa4f5d52d84d4d6d2a98128bd",
+        "size_in_bytes": 12773
+      },
+      {
+        "_path": "site-packages/backports.tempfile-1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c38a9a90380e8e97c4d0eea580d93391b36f15c149aa56ac87f93f35baa4738a",
+        "sha256_in_prefix": "c38a9a90380e8e97c4d0eea580d93391b36f15c149aa56ac87f93f35baa4738a",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "site-packages/backports.tempfile-1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "caf0c18f7bd2e246c7a24586f9abd6c13b1a9a57c848999f2411947ac7d3707e",
+        "sha256_in_prefix": "caf0c18f7bd2e246c7a24586f9abd6c13b1a9a57c848999f2411947ac7d3707e",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/backports.tempfile-1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/backports.tempfile-1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+        "sha256_in_prefix": "7068da2cc3a8051d452b4029a23b73595995893b49ec91882bf1f05e212cbed5",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/backports/tempfile.py",
+        "path_type": "hardlink",
+        "sha256": "e828b67cb506d93b8b87d6bfd70ef23f91ed6d998f3554b796cd0451a06bc32c",
+        "sha256_in_prefix": "e828b67cb506d93b8b87d6bfd70ef23f91ed6d998f3554b796cd0451a06bc32c",
+        "size_in_bytes": 2157
+      },
+      {
+        "_path": "lib/python3.8/site-packages/backports/__pycache__/tempfile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::backports.tempfile==1.0=py_1",
+  "sha256": "674335fe651cd255dcea2b3ccb5828b0337211b9ec782f469bee4569fe18176f",
+  "size": 14904,
+  "subdir": "noarch",
+  "timestamp": 1560268213338,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/backports.tempfile-1.0-py_1.conda",
+  "version": "1.0"
+}

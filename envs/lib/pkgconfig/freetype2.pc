@@ -1,0 +1,14 @@
+prefix=/home/dario/Projects/Dario/web-scraping/envs
+exec_prefix=/home/dario/Projects/Dario/web-scraping/envs
+libdir=/home/dario/Projects/Dario/web-scraping/envs/lib
+includedir=/home/dario/Projects/Dario/web-scraping/envs/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.2.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/home/dario/Projects/Dario/web-scraping/envs/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

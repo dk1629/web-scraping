@@ -1,0 +1,42 @@
+{
+  "build": "he32d670_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/dario/anaconda3/pkgs/ripgrep-11.0.2-he32d670_0",
+  "features": "",
+  "files": [
+    "bin/rg"
+  ],
+  "fn": "ripgrep-11.0.2-he32d670_0.conda",
+  "legacy_bz2_md5": "6ac00ed505a27b05a02ba9e0d905eb08",
+  "legacy_bz2_size": 1536747,
+  "link": {
+    "source": "/home/dario/anaconda3/pkgs/ripgrep-11.0.2-he32d670_0",
+    "type": 1
+  },
+  "md5": "fdb35c67fd289edd668932f7e279f4dc",
+  "name": "ripgrep",
+  "package_tarball_full_path": "/home/dario/anaconda3/pkgs/ripgrep-11.0.2-he32d670_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/rg",
+        "path_type": "hardlink",
+        "sha256": "4bcbecb7bea119979b891e9052330cea204dbe25815077ac3b249897a915a1dc",
+        "sha256_in_prefix": "4bcbecb7bea119979b891e9052330cea204dbe25815077ac3b249897a915a1dc",
+        "size_in_bytes": 3718560
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::ripgrep==11.0.2=he32d670_0",
+  "sha256": "c9983e691a07265ae52cdab9ec9e33552fa69be31686f75c3c6d8616dd91de0c",
+  "size": 1353347,
+  "subdir": "linux-64",
+  "timestamp": 1578438697374,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/ripgrep-11.0.2-he32d670_0.conda",
+  "version": "11.0.2"
+}

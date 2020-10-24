@@ -1,0 +1,100 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/dario/anaconda3/pkgs/xmltodict-0.12.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/xmltodict-0.12.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/xmltodict-0.12.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/xmltodict-0.12.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/xmltodict-0.12.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/xmltodict-0.12.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/xmltodict-0.12.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/xmltodict.py",
+    "lib/python3.8/site-packages/__pycache__/xmltodict.cpython-38.pyc"
+  ],
+  "fn": "xmltodict-0.12.0-py_0.conda",
+  "legacy_bz2_md5": "7923b0471da1c9fddc0d6a317367dbd1",
+  "legacy_bz2_size": 14137,
+  "license": "MIT",
+  "link": {
+    "source": "/home/dario/anaconda3/pkgs/xmltodict-0.12.0-py_0",
+    "type": 1
+  },
+  "md5": "420cd3071d890913851e4fa934d07835",
+  "name": "xmltodict",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/dario/anaconda3/pkgs/xmltodict-0.12.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/xmltodict-0.12.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/xmltodict-0.12.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d66d5eb8f83a0ba21d3dd04318b8817588e8764daabea852d1035e3f07ffda55",
+        "sha256_in_prefix": "d66d5eb8f83a0ba21d3dd04318b8817588e8764daabea852d1035e3f07ffda55",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/xmltodict-0.12.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c95f1286d7c13fa8bc527c37041c5a46019d6c4f17447e7e7400864ac455d612",
+        "sha256_in_prefix": "c95f1286d7c13fa8bc527c37041c5a46019d6c4f17447e7e7400864ac455d612",
+        "size_in_bytes": 6339
+      },
+      {
+        "_path": "site-packages/xmltodict-0.12.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6c66048e856036a4b5ed3d55013ff7f76fdd6c696d31cd5e84cc4f624f2d3d79",
+        "sha256_in_prefix": "6c66048e856036a4b5ed3d55013ff7f76fdd6c696d31cd5e84cc4f624f2d3d79",
+        "size_in_bytes": 586
+      },
+      {
+        "_path": "site-packages/xmltodict-0.12.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "sha256_in_prefix": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/xmltodict-0.12.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "532f8331f61e927063218c0ea566686c41f4569679f41467ebe70bec25a69e30",
+        "sha256_in_prefix": "532f8331f61e927063218c0ea566686c41f4569679f41467ebe70bec25a69e30",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/xmltodict.py",
+        "path_type": "hardlink",
+        "sha256": "8473eacdec11835a7e2916c284842512c625a05d43c5c035107aeb93540aec8f",
+        "sha256_in_prefix": "8473eacdec11835a7e2916c284842512c625a05d43c5c035107aeb93540aec8f",
+        "size_in_bytes": 17406
+      },
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/xmltodict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::xmltodict==0.12.0=py_0",
+  "sha256": "b39ea4ba104c0c76b39f30a393daebb0c76ec082d35b026e4dcecdeb07ac2856",
+  "size": 14798,
+  "subdir": "noarch",
+  "timestamp": 1552405140675,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/xmltodict-0.12.0-py_0.conda",
+  "version": "0.12.0"
+}

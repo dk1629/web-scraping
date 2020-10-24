@@ -1,0 +1,63 @@
+{
+  "build": "h4a3c616_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/dario/anaconda3/pkgs/libllvm9-9.0.1-h4a3c616_1",
+  "features": "",
+  "files": [
+    "lib/libLLVM-9.so",
+    "lib/libLTO.so.9",
+    "lib/libRemarks.so.9"
+  ],
+  "fn": "libllvm9-9.0.1-h4a3c616_1.conda",
+  "legacy_bz2_md5": "287f7bdfeb66df78d82059171cecf030",
+  "legacy_bz2_size": 26344144,
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/dario/anaconda3/pkgs/libllvm9-9.0.1-h4a3c616_1",
+    "type": 1
+  },
+  "md5": "b283b5087c2b8468a976c439b616a2fc",
+  "name": "libllvm9",
+  "package_tarball_full_path": "/home/dario/anaconda3/pkgs/libllvm9-9.0.1-h4a3c616_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-9.so",
+        "path_type": "hardlink",
+        "sha256": "fdf54b310cd56621aa7c3709f1905661c3c5987b61c8e30e6022d033e40a96ac",
+        "sha256_in_prefix": "fdf54b310cd56621aa7c3709f1905661c3c5987b61c8e30e6022d033e40a96ac",
+        "size_in_bytes": 89307304
+      },
+      {
+        "_path": "lib/libLTO.so.9",
+        "path_type": "hardlink",
+        "sha256": "173c19fa09e2e6210a3c2c45a531417fe30fd141eeb80f7a65f17f06b448c39f",
+        "sha256_in_prefix": "173c19fa09e2e6210a3c2c45a531417fe30fd141eeb80f7a65f17f06b448c39f",
+        "size_in_bytes": 216968
+      },
+      {
+        "_path": "lib/libRemarks.so.9",
+        "path_type": "hardlink",
+        "sha256": "8042e8f81cfa7d365ad5caf9679b8df7f01efa97c9399191d194e7c10dca2642",
+        "sha256_in_prefix": "8042e8f81cfa7d365ad5caf9679b8df7f01efa97c9399191d194e7c10dca2642",
+        "size_in_bytes": 15856
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::libllvm9==9.0.1=h4a3c616_1",
+  "sha256": "e53490b70422937b076a4a58e506abceb23b4c40969fbefc26d6353bb6f70d92",
+  "size": 22025773,
+  "subdir": "linux-64",
+  "timestamp": 1594477682199,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libllvm9-9.0.1-h4a3c616_1.conda",
+  "version": "9.0.1"
+}

@@ -1,0 +1,98 @@
+{
+  "build": "hd408876_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "lz4-c >=1.9.2,<1.10.0a0",
+    "snappy >=1.1.7,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.4,<1.5.0a0"
+  ],
+  "extracted_package_dir": "/home/dario/anaconda3/pkgs/blosc-1.19.0-hd408876_0",
+  "features": "",
+  "files": [
+    "include/blosc-export.h",
+    "include/blosc.h",
+    "lib/libblosc.a",
+    "lib/libblosc.so",
+    "lib/libblosc.so.1",
+    "lib/libblosc.so.1.19.0",
+    "lib/pkgconfig/blosc.pc"
+  ],
+  "fn": "blosc-1.19.0-hd408876_0.conda",
+  "legacy_bz2_md5": "e5b08f5e2b423f0da6f4c030f890f0ad",
+  "legacy_bz2_size": 83398,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/dario/anaconda3/pkgs/blosc-1.19.0-hd408876_0",
+    "type": 1
+  },
+  "md5": "da283bd28d6376fee8831d355eedfe1f",
+  "name": "blosc",
+  "package_tarball_full_path": "/home/dario/anaconda3/pkgs/blosc-1.19.0-hd408876_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/blosc-export.h",
+        "path_type": "hardlink",
+        "sha256": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+        "sha256_in_prefix": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "include/blosc.h",
+        "path_type": "hardlink",
+        "sha256": "b1eaca6b10aa9adce1ee84f1a2c5632e4bd2b9de548aac01a2f43f2983330e91",
+        "sha256_in_prefix": "b1eaca6b10aa9adce1ee84f1a2c5632e4bd2b9de548aac01a2f43f2983330e91",
+        "size_in_bytes": 19565
+      },
+      {
+        "_path": "lib/libblosc.a",
+        "path_type": "hardlink",
+        "sha256": "79d1ce9127584fb8324eb98592c9e2aeed2af22dc6b317f5c45d71c4885644a5",
+        "sha256_in_prefix": "79d1ce9127584fb8324eb98592c9e2aeed2af22dc6b317f5c45d71c4885644a5",
+        "size_in_bytes": 125126
+      },
+      {
+        "_path": "lib/libblosc.so",
+        "path_type": "softlink",
+        "sha256": "434718b4221ca98661523e1fd3571732c7f9eec9606403372846d229010c7a98",
+        "size_in_bytes": 95056
+      },
+      {
+        "_path": "lib/libblosc.so.1",
+        "path_type": "softlink",
+        "sha256": "434718b4221ca98661523e1fd3571732c7f9eec9606403372846d229010c7a98",
+        "size_in_bytes": 95056
+      },
+      {
+        "_path": "lib/libblosc.so.1.19.0",
+        "path_type": "hardlink",
+        "sha256": "434718b4221ca98661523e1fd3571732c7f9eec9606403372846d229010c7a98",
+        "sha256_in_prefix": "434718b4221ca98661523e1fd3571732c7f9eec9606403372846d229010c7a98",
+        "size_in_bytes": 95056
+      },
+      {
+        "_path": "lib/pkgconfig/blosc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "5905afdb2b9ee031bbc4189653fa74cefbd3f333d522ebdd1f555b63849c459e",
+        "sha256_in_prefix": "7ee9544f19930dbbb645772fc954577a8aa4306273298dbd333ef212431924fd",
+        "size_in_bytes": 339
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::blosc==1.19.0=hd408876_0",
+  "sha256": "7769c0487cb2b4acbf35d02573c35536d8f5f836f37fcafc57b81f840bfaa2f7",
+  "size": 72360,
+  "subdir": "linux-64",
+  "timestamp": 1592515136878,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/blosc-1.19.0-hd408876_0.conda",
+  "version": "1.19.0"
+}
